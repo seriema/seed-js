@@ -25,3 +25,9 @@ build/Release
 # Dependency directory
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
 node_modules
+
+# Bower dependency directory (can of course be changed by .bowerrc but this is the default)
+bower_components
+
+# Webstorm (by JetBrains). I don't want IDE-specific settings shared in my projects.
+.idea
